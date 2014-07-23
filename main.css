@@ -1,0 +1,96 @@
+html { 
+  background: url(img/tokyo.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+	background:none;
+}
+
+.navbar-fly {
+    background: rgba(255, 255, 255, 0.63);
+	
+    border-radius: 0;
+}
+
+.navbar-fly a {
+    color: #333;
+	
+}
+.nav>li>a:hover, .nav>li>a:focus {
+	position:relative;
+	top:2px;
+	background:none;	
+}
+
+.clear-box {
+	margin-bottom:6em;
+	 transition: all 1.5s ease;
+}
+
+.title-box h1 {
+    font-size: 8em;
+	
+}
+
+.title-box p {
+    font-size: 6em;
+	
+}
+
+.title-box .radial-blur {
+    text-align: center;
+	
+    color: #fff;
+    padding: 30px;
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(37, 23, 23, 0.41);
+}
+
+.pretext-node-animate {
+   opacity:0;
+}
+
+
+
+.white-box {
+	background:#fff;
+	 transition: all 1.5s ease;
+}
+
+.white-box h1 {
+    font-size: 4em;
+	
+}
+
+.white-box .subtitle {
+    font-size: 2em;
+	
+}
+.footer-textn a {
+	color:#fff;
+	}
+
+.footer-textn p {
+	font-size: 16px;
+padding-top: 20px;
+}
+.ximg {
+    text-align: center;
+	
+}
+
+.ximg img {
+    width: 100%;
+	max-width: 395px;
+}
+
+
+@media (min-width: 960px){
+.fixeds {
+	position:fixed;
+}
+}
